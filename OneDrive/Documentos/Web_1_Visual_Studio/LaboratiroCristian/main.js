@@ -4,22 +4,24 @@ console.log("Iniciando laboratorio...");
 // fase 2
 let edad = 20;
 let esEstudiante = true;
+const curso = "JavaScript";
+
 console.log(typeof edad);
 console.log(typeof esEstudiante);
+console.log(typeof curso);
 
 // fase 3
-let nombre = "Cristian";
+const nombre = "Cristian";
 let saludo = `Hola ${nombre}, tienes ${edad} años.`;
 
 console.log(saludo);
 
-let mensaje = `
-Bienvenido ${nombre}
-Curso: JavaScript
-Edad: ${edad}
-`;
+let mensaje = `Bienvenido ${nombre}
+Curso: ${curso}
+Edad: ${edad}`;
 
 console.log(mensaje);
+
 
 // fase 4
 let sabor = "chocolate";
